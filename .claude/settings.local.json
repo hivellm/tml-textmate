@@ -10,7 +10,8 @@
       "Read(//tmp/**)",
       "Bash(python3 -c ':*)",
       "Bash(mkdir -p /tmp/linguist-fork/samples/TML)",
-      "Bash(cp \"F:/Node/hivellm/tml/linguist-contribution/samples/TML/\"*.tml /tmp/linguist-fork/samples/TML/)"
+      "Bash(cp \"F:/Node/hivellm/tml/linguist-contribution/samples/TML/\"*.tml /tmp/linguist-fork/samples/TML/)",
+      "Bash(gh pr create --repo github-linguist/linguist --title 'Add TML programming language' --body ':*)"
     ],
     "additionalDirectories": [
       "F:\\Node\\hivellm\\tml"
